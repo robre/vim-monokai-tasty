@@ -1,3 +1,14 @@
+# vim-monokai-tasty - black bg fork
+This is a fork of `vim-monokai-tasty` which simply makes the background color
+black, and adjusts the dark-grayish colors to be a bit darker. The screenshot
+shows what I mean:
+![](./images/example_main_fork.png)
+You can compare it to the original colorscheme included below:
+
+## Original Readme below.
+
+---
+
 # vim-monokai-tasty
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
