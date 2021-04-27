@@ -42,9 +42,9 @@ let s:white = { "cterm": 231, "gui": "#ffffff" }
 let s:light_grey = { "cterm": 250, "gui": "#bcbcbc" }
 let s:grey = { "cterm": 245, "gui": "#8a8a8a" }
 let s:dark_grey = { "cterm": 59, "gui": "#5f5f5f" }
-let s:darker_grey = { "cterm": 238, "gui": "#444444" }
+let s:darker_grey = { "cterm": 238, "gui": "#141414" }
 let s:light_charcoal = { "cterm": 238, "gui": "#2b2b2b" }
-let s:charcoal = { "cterm": 235, "gui": "#262626" }
+let s:charcoal = { "cterm": 0, "gui": "#000000" }
 
 " Git diff colours.
 let s:danger = { "cterm": 197, "gui": "#ff005f" }
@@ -87,7 +87,7 @@ call Highlight("SpellLocal", s:charcoal, s:orange, s:italic)
 call Highlight("CursorLineNR", s:yellow, s:none, s:none)
 
 call Highlight("CursorColumn", s:none, s:darker_grey, s:none)
-call Highlight("ColorColumn", s:none, s:light_charcoal, s:none)
+call Highlight("ColorColumn", s:none, s:darker_grey, s:none)
 call Highlight("Conceal", s:none, s:none, s:none)
 call Highlight("CursorLine", s:none, s:darker_grey, s:none)
 call Highlight("Type", s:none, s:none, s:none)
